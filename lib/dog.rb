@@ -10,12 +10,16 @@ class Dog
     #@@all << name
   end 
   
-  def self.save 
+  def save 
     @@all << self.name
   end 
   
   def self.all
     @@all
+  end 
+  
+  def self.clear_all 
+    @@all = []
   end 
   
   def self.print_all
