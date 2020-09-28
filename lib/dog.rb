@@ -23,7 +23,7 @@ class Dog
   end 
   
   def self.print_all
-    @all.each { |item|
+    @@all.each { |item|
       puts item
     }
   end 
